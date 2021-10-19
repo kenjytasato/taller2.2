@@ -8,14 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Ejercicio2 {
 
     public static void main(String[] args){
-        /*##Ejercicio 2:
-*Ir a amazon.com
-                *Buscar zapatillas
-                *Seleccionar el primer resultado
-                *Imprimir por consola la descripción
-*Imprimir por consola el precio
-                *compararlo con el segundo resultado de la búsqueda e imprimir el que tiene el precio mas bajo bajo el mensaje : “la mejor opción de compra es = xxxxxxx” , donde “xxxxxxx” es el titulo del anuncio.
-                */
 
         WebDriver driver = null;
         WebDriverManager.chromedriver().version("87.0.4280.88").setup();
